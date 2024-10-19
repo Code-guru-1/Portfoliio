@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #170550;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.navbar-logo{
+    width: 150px;
+    height: 55px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu > li{
+    cursor: pointer;
+    color: white;
+}
+
+.btn{
+    background-color: white;
+    padding: 10px 42px;
+    color: #461959;
+    border : none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* ================
+   Bannar Part 
+============== */
+.bannar{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #31065A;
+}
+
+.bannar-img{
+    width: 577px;
+    height: 683px;
+}
+
+.title{
+    color: #F86F03;
+    font-size: 30px;
+    font-weight:700;
+    margin-bottom: 6px;
+}
+
+.developer-name{
+    color: white;
+    margin-bottom: 6px;
+}
+
+.more-title{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.frontend{
+    color: #F86F03;
+}
+
+.description{
+    color: white;
+}
