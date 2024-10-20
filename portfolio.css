@@ -148,3 +148,137 @@
     border: none;
     border-radius: 20px;
 }
+
+
+
+/* ================
+   Service Section
+============== */
+
+#service-section{
+    background-color: #31065A;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 76px;
+    padding-bottom: 166px;
+}
+
+.services-title{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 98px;
+}
+
+.single-card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.single-card-img{
+    margin-bottom: 35px;
+}
+
+.single-card-title{
+    margin-bottom: 33px;
+}
+
+/* ================
+   Skills Section
+============== */
+
+#skill-section{
+    background-color: #170550;
+    padding-top: 76px ;
+    padding-bottom: 170px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.skill-title{
+    text-align: center;
+}
+
+.all-skill{
+    margin-top: 127px;
+}
+
+.single-skill{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.single-skill > h5{
+    width: 150px;
+}
+
+.main-progress{
+    background-color: #43366A;
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.progress{
+    position: absolute;
+    background-color: #F86F03;
+    width: 50%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress1{
+    position: absolute;
+    background-color: #F86F03;
+    width: 50%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress2{
+    position: absolute;
+    background-color: #F86F03;
+    width: 40%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress3{
+    position: absolute;
+    background-color: #F86F03;
+    width: 47%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress4{
+    position: absolute;
+    background-color: #F86F03;
+    width: 25%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress5{
+    position: absolute;
+    background-color: #F86F03;
+    width: 33%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress6{
+    position: absolute;
+    background-color: #F86F03;
+    width: 52%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
